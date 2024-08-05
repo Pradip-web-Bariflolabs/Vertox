@@ -1,0 +1,133 @@
+/* src/assets/css/Home.css */
+
+.home-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.banner-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* Ensure image stays within its container */
+  z-index: 1;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  transition: background 0.3s ease-in-out; /* Smooth transition */
+  z-index: 2;
+}
+
+.text-overlay h1,
+.text-overlay p {
+  margin: 0;
+  opacity: 0;
+  animation: fadeIn 2s forwards, slideUp 1s forwards;
+}
+
+.text-overlay h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  animation-delay: 0.5s;
+}
+
+.text-overlay p {
+  font-size: 1rem;
+  animation-delay: 1s;
+}
+
+/* Keyframes for animation */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .text-overlay h1 {
+    font-size: 1.5rem;
+  }
+  .text-overlay p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-overlay h1 {
+    font-size: 1.2rem;
+  }
+  .text-overlay p {
+    font-size: 0.75rem;
+  }
+}
+
+/* HeroCard styles */
+.hero-card {
+  background-color: rgba(135, 206, 235, 0.9); /* Sky blue with some transparency */
+  width: 60%;
+  margin: -5rem auto 0 auto; /* Adjusted to better position the card */
+  z-index: 3;
+  position: relative;
+  padding: 2rem; /* Add padding for better appearance */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better visual effect */
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+}
+
+.card-image {
+  width: 50px; /* Adjusted size */
+  margin-right: 1rem;
+}
+
+.card-text h2 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.card-text p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Adjust margin for About section */
+.about-section {
+  margin-top: 4rem; /* Adjust as needed */
+}
+
+/* Additional styles for About section */
+.about-section img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
+
+.about-section .content {
+  padding: 2rem; /* Add padding for better appearance */
+}

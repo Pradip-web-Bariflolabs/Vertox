@@ -1,0 +1,30 @@
+.hero-card {
+    background-color: rgba(135, 206, 235, 0.9); /* Sky blue with some transparency */
+    width: 60%;
+    margin: -5rem auto 0 auto; /* Adjusted to better position the card */
+    z-index: 3;
+    position: relative;
+    padding: 2rem; /* Add padding for better appearance */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better visual effect */
+  }
+  
+  .card-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-image {
+    width: 50px; /* Adjusted size */
+    margin-right: 1rem;
+  }
+  
+  .card-text h2 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .card-text p {
+    font-size: 1rem;
+    margin: 0;
+  }
