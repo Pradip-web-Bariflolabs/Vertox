@@ -15,7 +15,7 @@ export default function DedicatedTeam() {
                 <h2 className='text-4xl font-semibold text-blue-950'>SALOMI DABRAL </h2>
                 <p>I am a sustainability professional with more than 10 years of experience domain of urban water-sanitation issues in the area of community-led developments, effectively integrating with Environment Health, Infrastructure and Education Pillars. </p>
                 <p><span>Phone :</span>+91 9599530188</p>
-                <p><span>email :</span>care@bariflolabs.com</p>
+                <p><span>email :</span>salomi@vertoxlabs.com</p>
             </div>
         </div>
         <div className='relative overflow-hidden team-card cursor-pointer'>
@@ -24,7 +24,7 @@ export default function DedicatedTeam() {
                 <h2 className='text-4xl font-semibold text-blue-950'>MRUTYUNJAYA SAHU </h2>
                 <p>Expertise in Prototype to product development. 5 years experience of Team building, business development, New market creation.</p>
                 <p><span>Phone :</span>+91 7328021033</p>
-                <p><span>email :</span>mrityunjay.sahu@bariflolabs.com</p>
+                <p><span>email :</span>mrityunjay@vertoxlabs.com</p>
             </div>
         </div>
         <div className='relative overflow-hidden team-card cursor-pointer'>
@@ -33,7 +33,7 @@ export default function DedicatedTeam() {
                 <h2 className='text-4xl font-semibold text-blue-950'>SHEETAL PRIYADARSHINI </h2>
                 <p> HR professional basically involved in technical & non- technical recruitment, inhouse operations, payroll processing with compensation & benefits. In the last 4 years I am associated with Bariflo Cybernetics Private Limited where I am implementing HR strategies that align with organizational.</p>
                 <p><span>Phone :</span>+91 8249855536</p>
-                <p><span>email :</span>sheetal@bariflolabs.com</p>
+                <p><span>email :</span>admin@vertoxlabs.com</p>
             </div>
         </div>
       </div>
