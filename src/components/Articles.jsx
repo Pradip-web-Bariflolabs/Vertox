@@ -22,7 +22,7 @@ export default function Articles() {
                     </div>
                     <div className='bg-white rounded-md p-4 shadow-md news-card overflow-hidden'>
                         <div className='relative news-img'>
-                            <img src="img/banner-3.jpg" alt="..."  style={{width:"100%" ,height:"100%"}} />
+                            <img src="img/banner-3.jpg" alt="banner"  style={{width:"100%" ,height:"100%"}} />
                             <span className='p-2 px-4 bg-sky-700 rounded-full text-white absolute left-2 bottom-5'>Satellite Imaging</span>
                         {/* <span className='p-2 py-4 w-14 text-white flex flex-wrap absolute -bottom-8 right-3 bg-blue-800'>23 Aug</span> */}
                         </div>
@@ -34,7 +34,7 @@ export default function Articles() {
                     </div>
                     <div className='bg-white rounded-md p-4 shadow-md news-card overflow-hidden'>
                         <div className='relative news-img'>
-                            <img src="img/POST-8.jpeg" alt="..." style={{width:"100%" ,height:"100%"}} />
+                            <img src="img/POST-8.jpeg" alt="banner" style={{width:"100%" ,height:"100%"}} />
                             <span className='p-2 px-4 bg-sky-700 rounded-full text-white absolute left-2 bottom-5'>Lower Cost</span>
                             {/* <span className='p-2 py-4 w-14 text-white flex flex-wrap absolute -bottom-8 right-3 bg-blue-800'>23 Aug</span> */}
                         </div>
