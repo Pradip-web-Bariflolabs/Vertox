@@ -6,7 +6,7 @@ export default function About() {
             { /*<img src="img/banner-1.jpg" alt="..." className='w-full' />*/ }
         <div className='flex flex-col md:flex-row max-w-[1260px] mx-auto gap-8'>
         <div className='w-1/2 shadow-xl p-0'>
-            <img src="img/new_banner.jpg" alt="banner"  className='w-full h-full rounded-md shadow-lg'/>
+            <img src="img/img/new_banner.jpg" alt="banner"  className='w-full h-full rounded-md shadow-lg'/>
         </div>
         <div className='w-1/2 space-y-6'>
             <h3 className='text-sky-700 text-xl font-bold'>About Us ~</h3>

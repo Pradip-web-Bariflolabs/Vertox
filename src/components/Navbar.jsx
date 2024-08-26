@@ -5,14 +5,9 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
 
-
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
+      setScrolled(window.scrollY > 50);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -26,9 +21,6 @@ export default function Navbar() {
   const closeMenu = () => {
     setShowMenu(false);
   };
-
-
-
 
   return (
     <div className='navbar-container shadow-lg'>
@@ -49,7 +41,6 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      
     </div>
   );
 }

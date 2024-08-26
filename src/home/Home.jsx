@@ -12,7 +12,7 @@ export default function Home() {
     <div id="home">
       <div className="relative w-full" style={{ width: "100vw", height: "75vh" }}>
       <img 
-        src="img/chilika-lake1.jpg" 
+        src="img/img/chilika-lake1.jpg" 
         alt="banner" 
         className="w-full h-full object-cover"
         style={{ width: "100vw", height: "75vh" }}

@@ -1,13 +1,13 @@
 export const BestServiceData = [
     {
-        title:"Carbon Trapping and Financing Solutions:",
-        desc:"Our aquarium Our solutions help municipalities and NGOs achieve up to 55 tonnes/year of carbon trapping per 10-acre water body. This approach uses carbon credits to fund city water balance plans, promoting water body rejuvenation and conservation. ",
-        img:"img/POST-6.jpg"
+        title:"Carbon Credits and Farmer Incentives",
+        desc:"We generate carbon and water security credits during restoration, which are sold to carbon-intensive industries. Our blockchain framework ensures marginal farmers benefit, promoting sustainable practices ",
+        img:"img/IMG_5577.jpg"
     },
     {
-        title:"Robotic Water Management Devices:",
-        desc:"Our We offer in-house robotic devices that reduce the operating cost of water sampling and data collection. These devices can be deployed for removing plastic trash, accumulated biomass, and dispersing microbial cultures to eliminate excess organic matter.",
-        img:"/img/post-7.jpg"
+        title:"Rejuvenating Water Bodies with Tech",
+        desc:"We fully restore water bodies' biodiversity using advanced robotic technology, AI, and IoT, guided by CPCB standards to ensure sustainable and aesthetic ecosystems",
+        img:"img/IMG_5450.jpg"
     },
     /*{
         title:"hatchery Prown",
@@ -15,9 +15,9 @@ export const BestServiceData = [
         img:"img/heatchery.avif"
     },*/
     {
-        title:"Water Purification Solutions",
-        desc:"Our technology solutions enable municipalities to measure and monitor changes in water quality parameters across multiple water bodies. This data reduces decision-making gaps and provides scientifically informed remediation plans.",
-        img:"img/post-5.jpg"
+        title:"Innovative Water Quality Solutions",
+        desc:"Vertox Labs is transforming water quality in lakes and reservoirs by integrating vertical agriculture and aquaculture. Our socioecological model not only restores ecosystems but also boosts profitability for aquafarmers",
+        img:"img/IMG_20200826_175655.jpg"
     },
    /* {
         title:"Prown feeding",

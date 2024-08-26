@@ -27,10 +27,10 @@ export default function Footer() {
         <div className='w-full md:w-1/2 text-white'>
           <h2 className='text-xl font-bold mb-6 half-underline'>Our Services</h2>
           <ul className='flex flex-col gap-4'>
-            <li>Water Monitizer</li>
-            <li>Prown Feeding</li>
-            <li>Live Weather</li>
-            <li>Automatic monitoring</li>
+            <li>Rejuvenation Of Biodiversity</li>
+            <li>Carbon Sequestration</li>
+            <li>Increased Fisheries</li>
+            <li>Better Livelihood</li>
           </ul>
         </div>
         <div className='space-y-3'>
