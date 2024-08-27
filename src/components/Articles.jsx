@@ -42,7 +42,7 @@ export default function Articles() {
             <div className='w-full md:w-[1280px] mx-auto text-center py-20'>
                 <h3 className='text-lg text-sky-700 font-bold'>~~ Our Products ~~</h3>
                 <h2 className='text-4xl font-bold mt-5 text-blue-950'>Our Latest Top Products</h2>
-                <div className='relative mt-14'>
+                <div className='relative mt-14 '>
                     <div className='overflow-hidden'>
                         <div
                             className='flex transition-transform duration-500 ease-in-out'

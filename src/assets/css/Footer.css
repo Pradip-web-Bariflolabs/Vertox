@@ -1,16 +1,15 @@
 .half-underline {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .half-underline::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -4px; 
-    height: 4px;  
-    width: 50%;   
-    background-color: rgb(56, 185, 236); 
-    border-radius: 10px;
-  }
-  
+  position: relative;
+  display: inline-block;
+}
+
+.half-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px; 
+  height: 4px;  
+  width: 50%;   
+  background-color: rgb(56, 185, 236); 
+  border-radius: 10px;
+}

@@ -18,8 +18,9 @@
 }
 
 .navbar span img {
-  display: block;
+  /* display: block; */
   margin: auto; /* Center the logo horizontally */
+  padding-left: 0px;
 }
 
 .navbar ul {
