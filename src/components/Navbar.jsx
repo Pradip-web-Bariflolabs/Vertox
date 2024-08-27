@@ -37,7 +37,7 @@ export default function Navbar() {
             <li><a href="#articles" onClick={closeMenu}>Products</a></li>
             <li><a href="#contact" onClick={closeMenu}>Contact Us</a></li>
           </ul>
-          <div className='navbar-toggler md:hidden' onClick={toggleMenu}>
+          <div className='navbar-toggler md:hidden mr-0' onClick={toggleMenu}>
             <i className='fas fa-bars'></i>
           </div>
         </div>
