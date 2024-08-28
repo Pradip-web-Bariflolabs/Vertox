@@ -7,7 +7,7 @@ export default function BestService() {
       <h3 className='text-lg text-sky-700 font-bold'>~~ How we works ~~</h3>
       <h2 className='text-4xl font-bold mt-5 text-blue-950'>WaterBody Rejuvenation Starts with Us</h2>
       <p className='w-full md:w-1/2 mx-auto mt-5'>Transforming Water Management with Advanced Robotics and Data Analytics</p>
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-8 mt-14'>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-8 mt-14'  style={{width:"80%"}}>
         {BestServiceData.map((item, index) => (
           <div 
             key={index} 

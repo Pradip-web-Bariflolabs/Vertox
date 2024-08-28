@@ -22,7 +22,7 @@ const Form = () => {
     console.log("submitted");
     e.preventDefault();
 
-    const apiEndpoint = 'http://192.168.1.30:8000/contactus/';
+    const apiEndpoint = 'http://192.168.1.30:8002/contactus/';
 
     try {
       const response = await axios.post(apiEndpoint, formData, {
