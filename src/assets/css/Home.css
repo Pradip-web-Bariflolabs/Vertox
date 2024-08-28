@@ -1,4 +1,16 @@
 /* src/assets/css/Home.css */
+.home-land {
+  height: 75vh;
+  position: relative;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .home-land {
+    margin: 200px; /* Add left margin on smaller screens */
+
+  }
+}
 
 .home-container {
   position: relative;

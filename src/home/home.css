@@ -1,6 +1,20 @@
-@media (min-width:360px){
-    .land-text{
-       
-       
+.home-land {
+    height: 75vh;
+    position: relative;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .home-land {
+      margin-left: 15px; /* Add left margin on smaller screens */
     }
-}
+  }
+  
+  @media (max-width: 480px) {
+    .home-land {
+      margin-left: 15px; /* Adjust left margin for very small screens */
+    }
+  }
+  
+  
+  
