@@ -19,21 +19,20 @@ export default function Articles() {
             img: "img/Monitoring device isometric view.png",
             title: "MONITORING SYSTEM",
             description: "An AI-based system integrated with a Water Sampling Unit and various sensors such as DO, Ammonia, nitrate, Nitrite, ORP, pH, temperature at different places in the water body."
-        },
-      
+        }, 
         // {
-        //     img: "Weed harvestor.png",
-        //     title: "WEED HARVESTOR",
-        //     description: "An aquatic weed harvester is designed for inland watercourse management to cut and harvest underwater weeds, reeds, and other aquatic plant life."
-        // },
-      
+            //     img: "Weed harvestor.png",
+            //     title: "WEED HARVESTOR",
+            //     description: "An aquatic weed harvester is designed for inland watercourse management to cut and harvest underwater weeds, reeds, and other aquatic plant life."
+            // },
     ];
 
     const handleSlide = (direction) => {
+        const maxIndex = window.innerWidth < 768 ? cards.length - 1 : cards.length - 3;
         if (direction === 'left') {
-            setCurrentIndex((prevIndex) => (prevIndex === 0 ? cards.length - 3 : prevIndex - 1));
+            setCurrentIndex((prevIndex) => (prevIndex === 0 ? maxIndex : prevIndex - 1));
         } else {
-            setCurrentIndex((prevIndex) => (prevIndex === cards.length - 3 ? 0 : prevIndex + 1));
+            setCurrentIndex((prevIndex) => (prevIndex === maxIndex ? 0 : prevIndex + 1));
         }
     };
 
@@ -42,14 +41,14 @@ export default function Articles() {
             <div className='w-full md:w-[1280px] mx-auto text-center py-20'>
                 <h3 className='text-lg text-sky-700 font-bold'>~~ Our Products ~~</h3>
                 <h2 className='text-4xl font-bold mt-5 text-blue-950'>Our Latest Top Products</h2>
-                <div className='relative mt-14 '>
+                <div className='relative mt-14'>
                     <div className='overflow-hidden'>
                         <div
                             className='flex transition-transform duration-500 ease-in-out'
                             style={{ transform: `translateX(-${currentIndex * 100}%)` }} // Slide by 100% to move one card width
                         >
                             {cards.map((card, index) => (
-                                <div className='w-[33.33%] flex-shrink-0 bg-white rounded-md p-4 shadow-md news-card' key={index}>
+                                <div className='flex-shrink-0 bg-white rounded-md p-4 shadow-md news-card' key={index}>
                                     <div className='relative news-img'>
                                         <img src={card.img} alt={card.title} style={{ width: "100%", height: "100%" }} />
                                         <span className='p-2 px-4 bg-sky-700 rounded-full text-white absolute left-2 bottom-5'>{card.title}</span>

@@ -3,7 +3,7 @@ import { BestServiceData } from '../bestServicedata';
 
 export default function BestService() {
   return (
-    <div className='w-full mx-auto text-center py-20 px-4'>
+    <div className='w-full mx-auto text-center py-10 px-4'>
       <h3 className='text-lg text-sky-700 font-bold'>~~ How we works ~~</h3>
       <h2 className='text-4xl font-bold mt-5 text-blue-950'>WaterBody Rejuvenation Starts with Us</h2>
       <p className='w-full md:w-1/2 mx-auto mt-5'>Transforming Water Management with Advanced Robotics and Data Analytics</p>
@@ -25,12 +25,12 @@ export default function BestService() {
           </div>
         ))}
       </div>
-      <div className='flex justify-center items-center py-10'>
+      <div className='flex justify-center items-center '>
         <img 
           src="img/solution design-01.png" 
           alt="image" 
-          className='object-contain max-w-full h-auto' 
-          style={{ marginTop: '20px', padding: '10px'}} 
+          className='object-contain max-w-full h-auto py-5' 
+          style={{  width:"80%"}} 
         />
       </div>
     </div>
