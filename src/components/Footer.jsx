@@ -45,7 +45,7 @@ export default function Footer() {
           </span>
           <span className='flex gap-3 ' style={{width:"fit-content", marginLeft:"0px"}}>
             <i className="fa-solid fa-envelope-open-text"></i>
-            <p>human@vertoxlabs.com</p>
+            <p>admin@vertoxlabs.com</p>
           </span>
           <span className='flex gap-3'style={{width:"fit-content", marginLeft:"0px"}}>
             <i className="fa-solid fa-phone-volume"></i>
