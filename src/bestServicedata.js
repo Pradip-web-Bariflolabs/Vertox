@@ -7,7 +7,7 @@ export const BestServiceData = [
     {
         title:"Rejuvenating Water Bodies with Tech",
         desc:"We fully restore water bodies' biodiversity using advanced robotic technology, AI, and IoT, guided by CPCB standards to ensure sustainable and aesthetic ecosystems",
-        img:"img/IMG_5450.jpg"
+        img:"img/IMG_2373.jpg"
     },
     /*{
         title:"hatchery Prown",
@@ -17,7 +17,7 @@ export const BestServiceData = [
     {
         title:"Innovative Water Quality Solutions",
         desc:"Vertox Labs is transforming water quality in lakes and reservoirs by integrating vertical agriculture and aquaculture. Our socioecological model not only restores ecosystems but also boosts profitability for aquafarmers",
-        img:"img/IMG_20200826_175655.jpg"
+        img:"img/WhatsApp Image 2023-07-07 at 09.12.51 (2) (1).jpeg"
     },
    /* {
         title:"Prown feeding",

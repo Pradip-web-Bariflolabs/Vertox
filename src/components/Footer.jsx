@@ -45,7 +45,7 @@ export default function Footer() {
           </span>
           <span className='flex gap-3 ' style={{width:"fit-content", marginLeft:"0px"}}>
             <i className="fa-solid fa-envelope-open-text"></i>
-            <p>human@vertoxlabs.com</p>
+            <p>admin@vertoxlabs.com</p>
           </span>
           <span className='flex gap-3'style={{width:"fit-content", marginLeft:"0px"}}>
             <i className="fa-solid fa-phone-volume"></i>
@@ -59,7 +59,7 @@ export default function Footer() {
       </div>
       <div className='text-white text-center my-4 mt-14'>
         <p className='font-semibold mx-auto'>
-          Copyright &copy; 2024, Bariflolabs All Rights Reserved
+          Copyright &copy; 2024, Vertoxlabs All Rights Reserved
         </p>
       </div>
     </div>

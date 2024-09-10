@@ -30,10 +30,10 @@ export default function DedicatedTeam() {
          <div className='relative overflow-hidden team-card cursor-pointer'>
           <img src="img/img/coo.jpeg" alt="CEOimg" className='w-full h-auto object-cover' style={{height:"430px", width:"500px"}} />
           <div className='absolute bottom-0 p-8 card-overlay space-y-4 text-left' style={{ background: "rgba(25, 124, 199, 0.9)" }}>
-            <h2 className='text-4xl font-semibold text-blue-950'>SALOMI DABRAL</h2>
-            <p>I am a sustainability professional with more than 10 years of experience in the domain of urban water-sanitation issues in the area of community-led developments, effectively integrating with Environment Health, Infrastructure, and Education Pillars.</p>
-            <p><span>Phone:</span> +91 9599530188</p>
-            <p><span>Email:</span> salomi@vertoxlabs.com</p>
+            <h2 className='text-4xl font-semibold text-blue-950'>SHEETAL PRIYADARSINI</h2>
+            <p>I am a seasoned sustainability professional with over a decade of experience tackling urban water and sanitation challenges. My work thrives at the intersection of community-led initiatives and the integration of environmental health, infrastructure, and education, driving impactful, sustainable change.</p>
+            <p><span>Phone:</span> +91 7377371987</p>
+            <p><span>Email:</span> admin@vertoxlabs.com</p>
           </div>
         </div>
       </div>

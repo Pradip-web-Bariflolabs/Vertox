@@ -8,23 +8,14 @@ export default function Testimonial() {
         <div className="flex justify-center items-center gap-4 flex-wrap">
           {/* Logo Images */}
           {[
-            "86b3e7c5-7e43-4ee9-8ef1-6882c372da5a.jfif",
-            "4759c8b9-e628-4ca8-88aa-0ca48ee03773.jfif",
-            "20yearsLogoVillgro-2.png",
             "channels4_profile.jpg",
-            "ciba.png",
-            "DLabs_Logo_Website.png",
-            "download.jfif",
             "Logo-500x.jpg",
             "Logo.jpg",
             "MEITY-STARTUP-_Final-File_27092019-768x614.png",
-            "OIP.jfif",
             "Orissajobsorg.gif",
             "R (1).png",
             "R (2).png",
             "R.png",
-            "startup-portal-new-logo.png",
-            "t hub logo.png",
           ].map((imgSrc, idx) => (
             <div className="flex-shrink-0" key={idx}>
               <img src={`img/img/logo/${imgSrc}`} alt={`logo-${idx}`} className="w-24 h-24 object-contain" />
