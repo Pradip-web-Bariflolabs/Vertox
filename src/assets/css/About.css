@@ -1,0 +1,12 @@
+
+  @media (max-width: 768px) {
+    .about-us {
+      margin: 15px; /* Add left margin on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-us {
+      margin: 15px; /* Adjust left margin for very small screens */
+    }
+  }

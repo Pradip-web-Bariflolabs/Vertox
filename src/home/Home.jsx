@@ -10,7 +10,7 @@ import './home.css'
 export default function Home() {
   return (
     <div >
-      <div className="relative " style={{ height: "75vh" }}>
+      <div className="relative home-land " style={{ height: "75vh" }}>
         <img 
           src="img/img/chilika-lake1.jpg" 
           alt="banner" 

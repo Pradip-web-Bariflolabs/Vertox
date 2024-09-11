@@ -12,7 +12,7 @@ export default function DedicatedTeam() {
         <div className='relative overflow-hidden team-card cursor-pointer'>
           <img src="img/img/CEO.jpeg" alt="CEOimg" className='w-full h-auto object-cover' />
           <div className='absolute bottom-0 p-8 card-overlay space-y-4 text-left' style={{ background: "rgba(25, 124, 199, 0.9)" }}>
-            <h2 className='text-4xl font-semibold text-blue-950'>SALOMI DABRAL</h2>
+            <h2 className='text-3xl font-semibold text-blue-950'>SALOMI DABRAL</h2>
             <p>I am a sustainability professional with more than 10 years of experience in the domain of urban water-sanitation issues in the area of community-led developments, effectively integrating with Environment Health, Infrastructure, and Education Pillars.</p>
             <p><span>Phone:</span> +91 9599530188</p>
             <p><span>Email:</span> salomi@vertoxlabs.com</p>
